@@ -41,3 +41,39 @@ nav ul li{
 	display: inline-block;
 	padding: 15px 10px;
 }
+
+
+@media (max-width: 1024px) {
+	section{
+		width: calc(70% - 60px);
+	}
+	aside{
+		width: 30%;
+	}
+}
+
+@media (max-width: 700px) {
+	h1{
+		text-align: center;
+	}
+	section{
+		width: calc(60% - 60px);
+	}
+	aside{
+		width: 40%;
+	}
+}
+@media (max-width: 500px) {
+	p{
+		font-size: 18px;
+	}
+  	section{
+		width: 100%;
+		padding: 10px 0;
+	}
+	aside{
+		width: 100%;
+		position: inherit;
+		display: inline-block;
+	}
+}
