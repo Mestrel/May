@@ -63,6 +63,7 @@ nav ul li{
 		width: 40%;
 	}
 }
+
 @media (max-width: 500px) {
 	p{
 		font-size: 18px;
@@ -72,8 +73,9 @@ nav ul li{
 		padding: 10px 0;
 	}
 	aside{
-		width: 100%;
-		position: inherit;
-		display: inline-block;
+		display: none;
+	}
+	footer p{
+		font-size: 16px;
 	}
 }
