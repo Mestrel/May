@@ -87,6 +87,9 @@ article{
   width: auto;
   height: 100px;
 }
+#img_1:hover{
+    margin-top: 2px;
+}
 #zoom_2{
   width: 100px;
 }
@@ -854,6 +857,27 @@ span{ font-weight: bold; }
   }
 
   /*** slider ***/
+  .flexslider .slides img {
+    height: 350px;
+  }
+  #cuarta_img{
+    height: 350px;
+  }
+  .width_200{
+    display: none;
+  }
+  .left{
+    width: 100%;
+    float: inherit;
+    text-align: center;
+    margin-top: -40px;
+  }
+  #ready_for_you{
+    margin-top: 15px;
+    height: 350px;
+    width: 100%;
+  }
+
   .slide_text h1{
     font-size: 30px;
   }
